@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Coffee Shop">
+
+    <title>Coffee Shop</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
+
+
+    <!-- All CSS files -->
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-slider.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+
+<body class="tt-smooth-scroll">
+
+    <!-- PRELOADER START -->
+    <div id="preloader">
+        <div class="coffeeloader">
+            <div class="steam">
+                <div class="smoke1"></div>
+                <div class="smoke2"></div>
+                <div class="smoke3"></div>
+            </div>
+            <div class="cupcontainer">
+                <div class="cup"></div>
+                <div class="glance"></div>
+                <div class="handle"></div>
+            </div>
+            <div class="plate"></div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+    <!-- PRELOADER END -->
+
+
+    <!-- Main Wrapper Start -->
+    <div id="scroll-container">
+
+        <!-- Header Menu Start -->
+        <header class="header">
+            <div class="container-fluid">
+
+                <nav class="navigation">
+                    <div class="navigation-wrapper">
+                        <a href="index.html" class="d-flex align-items-center">
+                            <img src="assets/media/logo.png" alt="/logo" class="header-logo">
+                        </a>
+                        <div class="main-menu__nav">
+                            <ul class="main-menu__list">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="menu.html">Menu</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-right-block">
+                            <a href="javascript:;" class="main-menu__search search-toggler d-lg-block d-none icon">
+                                <i class="fal fa-search"></i>
+                            </a>
+
+                            <a href="contact.html" class="cus-btn primary text-16">
+                                BOOK A TABLE
+                            </a>
+                            <a href="#" class="d-xl-none d-flex main-menu__toggler mobile-nav__toggler">
+                                <img src="assets/media/icon/menu-2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Header Menu End -->
+
+        <!-- TITLE BANNER START -->
+        <section class="title-banner text-center">
+            <div class="container-fluid">
+                <h1 class="color-white fw-400">Cart</h1>
+            </div>
+        </section>
+        <!-- TITLE BANNER END -->
+
+        <!-- Cart Area Start -->
+        <section class="cart py-80">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-8">
+                        <div class="d-lg-block d-none">
+                            <table class="cart-table mb-16">
+                                <thead>
+                                    <tr>
+                                        <th>Products</th>
+                                        <th>Unit Price</th>
+                                        <th>Quantity</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <table class="cart-table">
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td class="pd">
+                                            <div class="product-detail-box">
+                                                <div class="cus-checkBox">
+                                                    <input type="checkbox" id="box1">
+                                                    <label for="box1" class="light-gray"></label>
+                                                </div>
+                                                <a href="" class="h5"><i class="fal fa-times color-white"></i></a>
+                                                <div class="img-block">
+                                                    <a href="shop-grid.html"><img
+                                                            src="assets/media/images/cart-image-1.png" alt=""
+                                                            class="br-5"></a>
+                                                </div>
+                                                <div class="d-block text-start">
+                                                    <h6 class="color-white"><a href="shop-grid.html">Caramel
+                                                            Cappuccino</a></h6>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="color-white fw-500">$18.00</h6>
+                                        </td>
+                                        <td>
+                                            <div class="quantity-controller quantity-wrap">
+                                                <input class="decrement" type="button" value="-">
+                                                <input type="text" name="quantity" value="1" maxlength="2" size="1"
+                                                    class="number">
+                                                <input class="increment" type="button" value="+">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="color-white fw-500">$18.00</h6>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="cart-table">
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td class="pd">
+                                            <div class="product-detail-box">
+                                                <div class="cus-checkBox">
+                                                    <input type="checkbox" id="box2">
+                                                    <label for="box2" class="light-gray"></label>
+                                                </div>
+                                                <a href="" class="h5"><i class="fal fa-times color-white"></i></a>
+                                                <div class="img-block">
+                                                    <a href="shop-grid.html"><img
+                                                            src="assets/media/images/cart-image-2.png" alt=""
+                                                            class="br-5"></a>
+                                                </div>
+                                                <div class="d-block text-start">
+                                                    <h6 class="color-white"><a href="shop-grid.html">Iced Caramel
+                                                            Latte</a></h6>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="color-white fw-500">$18.00</h6>
+                                        </td>
+                                        <td>
+                                            <div class="quantity-controller quantity-wrap">
+                                                <input class="decrement" type="button" value="-">
+                                                <input type="text" name="quantity" value="1" maxlength="2" size="1"
+                                                    class="number">
+                                                <input class="increment" type="button" value="+">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="color-white fw-500">$18.00</h6>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div class="d-lg-none d-block">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="cart-item-block mb-32">
+                                        <div class="img-block mb-16">
+                                            <a href="product-detail-1.html"><img
+                                                    src="assets/media/images/cart-image-1.png" alt="" class="br-5"></a>
+                                            <a href="" class="cross"><i class="fal fa-times"></i></a>
+                                        </div>
+                                        <h6 class="color-white fw-500 mb-24">Caramel Cappuccino</h6>
+                                        <ul class="unstyled detail">
+                                            <li>
+                                                <h6 class="color-white">Price</h6>
+                                                <h6 class="color-white">$80.00</h6>
+                                            </li>
+                                            <li>
+                                                <p class="color-white fw-300">Date Added</p>
+                                                <p class="color-white fw-300">29 Jun, 2024</p>
+                                            </li>
+                                            <li>
+                                                <p class="color-sec">Stock Status</p>
+                                                <p class="color-sec">In-Stock</p>
+                                            </li>
+                                            <li>
+                                                <h6 class="color-white">Quantity</h6>
+                                                <div class="quantity-controller quantity-wrap">
+                                                    <input class="decrement" type="button" value="-">
+                                                    <input type="text" name="quantity" value="1" maxlength="2" size="1"
+                                                        class="number">
+                                                    <input class="increment" type="button" value="+">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="cart.html" class="cus-btn transparent">Add to Cart</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="cart-item-block mb-32">
+                                        <div class="img-block mb-16">
+                                            <a href="product-detail-1.html"><img
+                                                    src="assets/media/images/cart-image-2.png" alt="" class="br-5"></a>
+                                            <a href="" class="cross"><i class="fal fa-times"></i></a>
+                                        </div>
+                                        <h6 class="color-white fw-500 mb-24">Iced Caramel Latte</h6>
+                                        <ul class="unstyled detail">
+                                            <li>
+                                                <h6 class="color-white">Price</h6>
+                                                <h6 class="color-white">$70.00</h6>
+                                            </li>
+                                            <li>
+                                                <p class="color-white fw-300">Date Added</p>
+                                                <p class="color-white fw-300">29 Jun, 2024</p>
+                                            </li>
+                                            <li>
+                                                <p class="color-sec">Stock Status</p>
+                                                <p class="color-sec">In-Stock</p>
+                                            </li>
+                                            <li>
+                                                <h6 class="color-white">Quantity</h6>
+                                                <div class="quantity-controller quantity-wrap">
+                                                    <input class="decrement" type="button" value="-">
+                                                    <input type="text" name="quantity" value="1" maxlength="2" size="1"
+                                                        class="number">
+                                                    <input class="increment" type="button" value="+">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="cart.html" class="cus-btn transparent">Add to Cart</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-bottom-row bg-dark-black">
+                            <a href="shop-list-1.html" class="cus-btn primary">Continue Shopping</a>
+                            <form action="checkout.html" method="post"
+                                class="contact-form d-flex align-items-center gap-16">
+                                <input type="text" class="form-control" placeholder="Coupon Code" name="code"
+                                    id="cpCode">
+                                <button type="submit" class="cus-btn primary">Apply Now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="checkout-box mt-xl-0 mt-48">
+                            <div class="checkout-title text-center mb-16">
+                                <h5 class="color-white font-primary mb-24">Cart Total</h5>
+                            </div>
+                            <div class="bottom-box">
+                                <div class="title-price mb-16">
+                                    <h6 class="color-white">Subtotal</h6>
+                                    <h6 class="color-white">$80.00</h6>
+                                </div>
+                                <div class="hr-line line-2 mb-16"></div>
+                                <div class="title-price mb-16">
+                                    <h6 class="color-white">Standard Delivery</h6>
+                                    <h6 class="color-white">$5.00</h6>
+                                </div>
+                                <div class="hr-line line-2 mb-16"></div>
+                                <div class="title-price mb-16">
+                                    <h6 class="color-white">Coupon Discount</h6>
+                                    <h6 class="color-white">$-5.00</h6>
+                                </div>
+                                <div class="hr-line line-2 mb-80"></div>
+                                <div class="hr-line line-2 mb-16"></div>
+                                <div class="title-price mb-16">
+                                    <h5 class="color-sec fw-500">TOTAL</h5>
+                                    <h5 class="color-sec fw-500">$80.00</h5>
+                                </div>
+                                <div class="hr-line line-2 mb-16"></div>
+                                <div class="text-end">
+                                    <a href="checkout.html" class="cus-btn primary">PROCEED TO CHECKOUT</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Cart Area End -->
+
+        <!-- NEWSLETTER START -->
+        <section class="newsletter bg-dark-black">
+            <div class="container-fluid">
+                <div class="newletter-wrapper">
+                    <div class="newletter-image">
+                        <img src="assets/media/images/newsletter.png" alt="">
+                    </div>
+                    <div class="newletter-content">
+                        <div class="mb-48">
+                            <h2 class="fw-600 color-white font-primary mb-16">Join in and Get <span
+                                    class="color-sec">25%</span>Off!</h2>
+                            <p class="light-gray">Subscribe To Our Newsletter and Get 25% Discount.</p>
+                        </div>
+                        <form action="index.html" method="post">
+                            <input type="email" class="form-control" name="email" id="mail"
+                                placeholder="Enter your email">
+                            <button type="submit" class="cus-btn primary">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- NEWSLETTER END -->
+
+        <!-- FOOTER START -->
+        <footer class="pt-80 pb-40">
+            <div class="container-fluid">
+                <div class="footer-wrapper mb-40">
+                    <div class="footer-main-box">
+                        <div class="box-wrapper">
+                            <h6 class="fw-600 color-sec mb-24">Opening Hours</h6>
+                            <div class="name-price mb-16">
+                                <p class="color-white flex-shrink-0">Monday</p>
+                                <div class="center-line"></div>
+                                <p class="color-white flex-shrink-0">9:00 - 10.00pm</p>
+                            </div>
+                            <div class="name-price mb-16">
+                                <p class="color-white flex-shrink-0">Tuesday</p>
+                                <div class="center-line"></div>
+                                <p class="color-white flex-shrink-0">9:00 - 10.00pm</p>
+                            </div>
+                            <div class="name-price mb-16">
+                                <p class="color-white flex-shrink-0">Wednesday</p>
+                                <div class="center-line"></div>
+                                <p class="color-white flex-shrink-0">9:00 - 10.00pm</p>
+                            </div>
+                            <div class="name-price mb-16">
+                                <p class="color-white flex-shrink-0">Thurday</p>
+                                <div class="center-line"></div>
+                                <p class="color-white flex-shrink-0">9:00 - 10.00pm</p>
+                            </div>
+                            <div class="name-price mb-16">
+                                <p class="color-white flex-shrink-0">Friday</p>
+                                <div class="center-line"></div>
+                                <p class="color-white flex-shrink-0">9:00 - 10.00pm</p>
+                            </div>
+                            <div class="name-price mb-16">
+                                <p class="color-white flex-shrink-0">Saturday</p>
+                                <div class="center-line"></div>
+                                <p class="color-white flex-shrink-0">Closed</p>
+                            </div>
+                            <div class="name-price">
+                                <p class="color-white flex-shrink-0">Sunday</p>
+                                <div class="center-line"></div>
+                                <p class="color-white flex-shrink-0">Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-link-box v-2">
+                        <h6 class="fw-600 color-sec mb-24">Opening Hours</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-12 color-white"><a href="index.html">Home</a></li>
+                            <li class="mb-12 color-white"><a href="menu.html">Menu</a></li>
+                            <li class="mb-12 color-white"><a href="contact.html">Reservation</a></li>
+                            <li class="mb-12 color-white"><a href="about.html">About</a></li>
+                            <li class="mb-12 color-white"><a href="blog-grid.html">Blogs</a></li>
+                            <li class="mb-12 color-white"><a href="shop-grid.html">Shop</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-box v-2">
+                        <h6 class="fw-600 color-sec mb-24">Information</h6>
+                        <ul class="list-unstyled ">
+                            <li class="mb-12 color-white"><a href="contact.html">Contact Us</a></li>
+                            <li class="mb-12 color-white"><a href="account.html">My Account</a></li>
+                            <li class="mb-12 color-white"><a href="cart.html">Cart</a></li>
+                            <li class="mb-12 color-white"><a href="checkout.html">Checkout</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-box">
+                        <h6 class="fw-600 color-sec mb-24">Contact Us</h6>
+                        <ul class="contact-list list-unstyled">
+                            <li class="d-flex align-items-center mb-sm-12 mb-16 color-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_9768_630)">
+                                        <path
+                                            d="M8.27696 15.9914C8.3639 16.1219 8.51027 16.2002 8.66699 16.2002C8.82371 16.2002 8.97009 16.1219 9.05702 15.9914C10.1664 14.3275 11.8003 12.2724 12.939 10.1824C13.8494 8.51129 14.292 7.08601 14.292 5.8252C14.292 2.72357 11.7686 0.200195 8.66699 0.200195C5.56537 0.200195 3.04199 2.72357 3.04199 5.8252C3.04199 7.08601 3.48459 8.51129 4.39502 10.1824C5.5328 12.2709 7.1699 14.3309 8.27696 15.9914ZM8.66699 1.1377C11.2517 1.1377 13.3545 3.24051 13.3545 5.8252C13.3545 6.92532 12.9493 8.20388 12.1157 9.73391C11.1342 11.5354 9.73368 13.3629 8.66699 14.8992C7.60046 13.3631 6.1998 11.5355 5.21827 9.73391C4.38471 8.20388 3.97949 6.92532 3.97949 5.8252C3.97949 3.24051 6.0823 1.1377 8.66699 1.1377Z"
+                                            fill="#E8C895" />
+                                        <path
+                                            d="M8.66699 8.6377C10.2178 8.6377 11.4795 7.37601 11.4795 5.8252C11.4795 4.27438 10.2178 3.0127 8.66699 3.0127C7.11618 3.0127 5.85449 4.27438 5.85449 5.8252C5.85449 7.37601 7.11618 8.6377 8.66699 8.6377ZM8.66699 3.9502C9.70087 3.9502 10.542 4.79132 10.542 5.8252C10.542 6.85907 9.70087 7.7002 8.66699 7.7002C7.63312 7.7002 6.79199 6.85907 6.79199 5.8252C6.79199 4.79132 7.63312 3.9502 8.66699 3.9502Z"
+                                            fill="#E8C895" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_9768_630">
+                                            <rect width="16" height="16" fill="white"
+                                                transform="translate(0.666992 0.200195)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p>123 Main Street, Anytown, USA.</p>
+                            </li>
+                            <li class="d-flex align-items-center mb-sm-12 mb-16 color-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_9768_634)">
+                                        <path
+                                            d="M8.66692 0.300293C4.25575 0.300293 0.666992 3.88898 0.666992 8.30006C0.666992 12.7115 4.25575 16.3003 8.66692 16.3003C13.078 16.3003 16.6667 12.7114 16.6667 8.30006C16.6667 3.88898 13.078 0.300293 8.66692 0.300293ZM8.66692 15.1535C4.88809 15.1535 1.81378 12.079 1.81378 8.30006C1.81378 4.52132 4.88809 1.44708 8.66692 1.44708C12.4457 1.44708 15.5199 4.52132 15.5199 8.30006C15.5199 12.079 12.4457 15.1535 8.66692 15.1535Z"
+                                            fill="#E8C895" />
+                                        <path
+                                            d="M12.7804 8.1662H9.02089V4.05672C9.02089 3.74005 8.76424 3.48332 8.4475 3.48332C8.13083 3.48332 7.8741 3.74005 7.8741 4.05672V8.73959C7.8741 9.05626 8.13083 9.31298 8.4475 9.31298H12.7804C13.0971 9.31298 13.3538 9.05626 13.3538 8.73959C13.3538 8.42292 13.097 8.1662 12.7804 8.1662Z"
+                                            fill="#E8C895" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_9768_634">
+                                            <rect width="16" height="16" fill="white"
+                                                transform="translate(0.666992 0.200195)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p>Everyday: 9am - 10pm</p>
+                            </li>
+                            <li class="mb-sm-12 mb-16 color-white">
+                                <a href="tel:123545892" class="d-flex align-items-center gap-sm-8 gap-12">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_9768_638)">
+                                            <path
+                                                d="M13.6659 12.6245L13.3323 12.0673C12.7321 11.0779 11.9039 9.94226 10.8176 9.94226C10.6163 9.94226 10.417 9.98274 10.2197 10.0647L9.63663 10.3148C9.58337 10.3368 9.53163 10.362 9.47686 10.3886C9.32762 10.4612 9.1584 10.5434 8.98434 10.5434C8.55497 10.5434 8.05747 9.98462 7.58372 8.97007C7.11877 7.97429 7.14843 7.45226 7.25516 7.18958C7.37293 6.89978 7.64679 6.77587 7.941 6.66452C7.98192 6.64901 8.01887 6.63493 8.0548 6.62014L8.64524 6.37154C10.1835 5.72827 9.61122 3.48031 9.4236 2.74331L9.26448 2.10964C9.12845 1.58739 8.76778 0.200195 7.57145 0.200195C7.34998 0.200195 7.11372 0.251792 6.86945 0.353615C6.70917 0.417263 4.50357 1.31757 3.7045 2.89925C2.74949 4.78192 2.92608 7.30656 4.22884 10.4014C5.52187 13.5002 7.19858 15.3956 9.21245 16.0348C9.55789 16.1446 9.9483 16.2001 10.3729 16.2001H10.3731C11.7629 16.2001 13.1348 15.6088 13.2462 15.5597C13.7253 15.3567 14.0351 15.0483 14.1667 14.6428C14.3898 13.9551 14.0155 13.2017 13.6659 12.6245ZM13.137 14.3086C13.1064 14.4029 13 14.4889 12.8211 14.5643C12.8181 14.5655 12.8145 14.5671 12.8115 14.5684C12.799 14.5739 11.5573 15.1178 10.3728 15.1177C10.0595 15.1177 9.77929 15.0792 9.54 15.0031C7.84336 14.4646 6.39259 12.7762 5.22708 9.9831C4.05291 7.19348 3.86528 4.97489 4.67019 3.38816C5.2952 2.15106 7.25191 1.36628 7.27111 1.35878C7.275 1.35719 7.27883 1.35568 7.28265 1.35409C7.39407 1.30733 7.49395 1.28265 7.57145 1.28265C7.80995 1.28265 8.02702 1.65256 8.21566 2.37758L8.37405 3.00858C8.71582 4.35082 8.66379 5.19037 8.22626 5.37337L7.63864 5.62089C7.61526 5.63056 7.58791 5.64074 7.55774 5.65221C7.23315 5.77511 6.5577 6.03071 6.25223 6.78208C5.97505 7.46388 6.08979 8.3294 6.60266 9.42816C7.29341 10.907 8.07241 11.6259 8.9842 11.6259C9.40736 11.6259 9.74704 11.4608 9.94996 11.3622C9.98734 11.344 10.0208 11.3274 10.0567 11.3125L10.6406 11.0621C10.7009 11.037 10.7588 11.0248 10.8175 11.0248C11.0986 11.0248 11.6026 11.3031 12.4052 12.6262L12.7386 13.183C13.1496 13.8615 13.1821 14.1697 13.137 14.3086Z"
+                                                fill="#E8C895" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_9768_638">
+                                                <rect width="16" height="16" fill="white"
+                                                    transform="translate(0.666992 0.200195)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p>+1 (321) 009 008</p>
+                                </a>
+                            </li>
+                            <li class="mb-sm-12 mb-16 color-white">
+                                <a href="mailto:info@example.com" class="d-flex align-items-center gap-sm-8 gap-12">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_9768_642)">
+                                            <path
+                                                d="M15.2607 2.5752H2.07324C1.29627 2.5752 0.666992 3.20838 0.666992 3.98145V12.4189C0.666992 13.1966 1.3009 13.8252 2.07324 13.8252H15.2607C16.0312 13.8252 16.667 13.1993 16.667 12.4189V3.98145C16.667 3.20976 16.0402 2.5752 15.2607 2.5752ZM15.0638 3.5127C14.7765 3.79848 9.83209 8.71685 9.66137 8.88666C9.39574 9.15229 9.04262 9.29854 8.66699 9.29854C8.29137 9.29854 7.93824 9.15226 7.67174 8.88579C7.55693 8.77157 2.66709 3.90751 2.27018 3.5127H15.0638ZM1.60449 12.2281V4.17285L5.65568 8.20269L1.60449 12.2281ZM2.27077 12.8877L6.32037 8.86385L7.00971 9.54957C7.4524 9.99226 8.04096 10.236 8.66699 10.236C9.29302 10.236 9.88159 9.99226 10.3234 9.55045L11.0136 8.86385L15.0632 12.8877H2.27077ZM15.7295 12.2281L11.6783 8.20269L15.7295 4.17285V12.2281Z"
+                                                fill="#E8C895" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_9768_642">
+                                                <rect width="16" height="16" fill="white"
+                                                    transform="translate(0.666992 0.200195)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p>email@example.com</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="social-icon unstyled">
+                            <li>
+                                <h6 class="color-sec">Follow Us:</h6>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_9768_649)">
+                                            <path
+                                                d="M15.3545 4.8877C15.6779 4.8877 15.9404 4.6252 15.9404 4.30176V0.786133C15.9404 0.462695 15.6779 0.200195 15.3545 0.200195H11.8389C9.57715 0.200195 7.7373 2.04004 7.7373 4.30176V7.23145H5.97949C5.65605 7.23145 5.39355 7.49395 5.39355 7.81738V11.333C5.39355 11.6564 5.65605 11.9189 5.97949 11.9189H7.7373V19.6143C7.7373 19.9377 7.9998 20.2002 8.32324 20.2002H11.8389C12.1623 20.2002 12.4248 19.9377 12.4248 19.6143V11.9189H14.7686C15.0549 11.9189 15.2994 11.7119 15.3467 11.4295L15.9326 7.91387C15.9607 7.74395 15.9131 7.57012 15.8018 7.43848C15.6904 7.30723 15.5268 7.23145 15.3545 7.23145H12.4248V4.8877H15.3545ZM11.8389 8.40332H14.6627L14.2721 10.7471H11.8389C11.5154 10.7471 11.2529 11.0096 11.2529 11.333V19.0283H8.90918V11.333C8.90918 11.0096 8.64668 10.7471 8.32324 10.7471H6.56543V8.40332H8.32324C8.64668 8.40332 8.90918 8.14082 8.90918 7.81738V4.30176C8.90918 2.68652 10.2236 1.37207 11.8389 1.37207H14.7686V3.71582H11.8389C11.5154 3.71582 11.2529 3.97832 11.2529 4.30176V7.81738C11.2529 8.14082 11.5154 8.40332 11.8389 8.40332Z"
+                                                fill="#EAEAEC" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_9768_649">
+                                                <rect width="20" height="20" fill="white"
+                                                    transform="translate(0.666992 0.200195)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_9768_652)">
+                                            <path
+                                                d="M7.98711 20.2042C6.74336 20.2042 5.52734 19.7702 4.56367 18.982C3.29805 17.9468 2.57227 16.4187 2.57227 14.7894C2.57227 13.6027 2.94961 12.4753 3.66328 11.5296C4.35234 10.6167 5.33281 9.93274 6.42422 9.60423C7.39961 9.31048 8.42813 9.79837 8.81602 10.7394C8.84102 10.7995 8.86289 10.862 8.88164 10.9238C9.03359 11.4284 8.98008 11.962 8.73086 12.4261C8.48164 12.8902 8.06641 13.2296 7.56172 13.3816C6.94688 13.5667 6.51758 14.1456 6.51758 14.7894C6.51758 15.3038 6.79336 15.7878 7.2375 16.0527C7.48281 16.1991 7.76406 16.2699 8.05117 16.2577C8.83945 16.2241 9.45703 15.5659 9.45703 14.7589V2.19563C9.45703 1.29563 10.0539 0.502272 10.9082 0.266725C11.0023 0.240553 11.0992 0.221803 11.1953 0.210475C11.3738 0.188991 11.5547 0.192506 11.7332 0.21985C12.4137 0.321022 13 0.779225 13.2641 1.41594C13.3637 1.65618 13.4141 1.91008 13.4141 2.17063C13.4141 3.21477 13.8887 4.18313 14.7164 4.82727C15.3086 5.28821 16.018 5.53352 16.7676 5.53626C17.5727 5.53899 18.2926 6.01907 18.602 6.7593C18.7371 7.08352 18.7824 7.43977 18.7324 7.78977C18.5938 8.75579 17.7438 9.48157 16.7531 9.48157C16.7496 9.48157 16.7465 9.48157 16.743 9.48157C15.566 9.47571 14.4289 9.19212 13.4023 8.65422V14.7988C13.4023 14.805 13.4023 14.8113 13.402 14.8179C13.393 16.4238 12.6773 17.9324 11.4379 18.9593C10.4691 19.762 9.24375 20.2042 7.98711 20.2042ZM6.99531 10.6913C6.91797 10.6913 6.83945 10.7027 6.76172 10.7261C5.90664 10.9835 5.13828 11.5199 4.59844 12.2355C4.03945 12.9761 3.74414 13.8593 3.74414 14.7894C3.74414 16.0656 4.31328 17.2632 5.30586 18.0749C6.06094 18.6925 7.01328 19.0324 7.98711 19.0324C8.97109 19.0324 9.93125 18.6859 10.6898 18.057C11.6637 17.2499 12.225 16.0652 12.2301 14.8062C12.2301 14.8019 12.2301 14.7968 12.2305 14.7909V6.44524L13.1625 7.12727C14.2105 7.89446 15.4508 8.30305 16.7488 8.30969H16.7531C17.1645 8.30969 17.516 8.01555 17.5723 7.62376C17.5926 7.48079 17.5754 7.34212 17.5207 7.21126C17.3953 6.91165 17.0914 6.7093 16.7637 6.70813C15.7523 6.70462 14.7953 6.37376 13.9969 5.75188C12.882 4.88391 12.2426 3.57844 12.2426 2.17063C12.2426 2.06477 12.2223 1.96165 12.182 1.86477C12.0746 1.60579 11.8363 1.41946 11.5605 1.37883L11.5555 1.37805C11.482 1.36672 11.4078 1.36516 11.3344 1.37415C11.2965 1.37883 11.2582 1.38626 11.2203 1.3968C10.8715 1.49251 10.6285 1.82102 10.6285 2.19563V14.7589C10.6285 15.4452 10.3699 16.0988 9.90078 16.5991C9.42656 17.105 8.78711 17.3995 8.10039 17.4284C7.58437 17.4499 7.07852 17.3226 6.63672 17.0589C5.84023 16.5839 5.34531 15.714 5.34531 14.7894C5.34531 13.6331 6.11758 12.5929 7.22344 12.2597C7.42813 12.198 7.59688 12.0601 7.69805 11.8718C7.79922 11.6835 7.82109 11.4667 7.75938 11.262C7.75195 11.237 7.74258 11.2113 7.73242 11.1863C7.60586 10.8792 7.31172 10.6913 6.99531 10.6913ZM13.4016 14.8085V14.8136C13.4016 14.812 13.4016 14.8101 13.4016 14.8085Z"
+                                                fill="#EAEAEC" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_9768_652">
+                                                <rect width="20" height="20" fill="white"
+                                                    transform="translate(0.666992 0.200195)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_9768_655)">
+                                            <path
+                                                d="M10.8638 20.2001C10.7976 20.2001 10.7314 20.2001 10.6647 20.1998C9.09701 20.2036 7.6485 20.1638 6.23981 20.0781C4.9483 19.9995 3.76941 19.5532 2.83038 18.7875C1.92432 18.0486 1.30557 17.0497 0.991394 15.8186C0.717957 14.7468 0.703461 13.6947 0.689575 12.6771C0.679504 11.947 0.669128 11.0818 0.666992 10.202C0.669128 9.31849 0.679504 8.45331 0.689575 7.72318C0.703461 6.70572 0.717957 5.65363 0.991394 4.5817C1.30557 3.35062 1.92432 2.35163 2.83038 1.6128C3.76941 0.847112 4.9483 0.400792 6.23996 0.322209C7.64865 0.236608 9.09747 0.19663 10.6685 0.200444C12.2367 0.197087 13.6847 0.236608 15.0934 0.322209C16.3849 0.400792 17.5638 0.847112 18.5028 1.6128C19.4091 2.35163 20.0276 3.35062 20.3418 4.5817C20.6153 5.65348 20.6298 6.70572 20.6436 7.72318C20.6537 8.45331 20.6642 9.31849 20.6662 10.1983V10.202C20.6642 11.0818 20.6537 11.947 20.6436 12.6771C20.6298 13.6946 20.6154 14.7466 20.3418 15.8186C20.0276 17.0497 19.4091 18.0486 18.5028 18.7875C17.5638 19.5532 16.3849 19.9995 15.0934 20.0781C13.7444 20.1602 12.3586 20.2001 10.8638 20.2001ZM10.6647 18.9611C12.2069 18.9648 13.6229 18.9257 14.9985 18.8421C15.9751 18.7827 17.127 18.1422 17.8207 17.5765C18.4618 17.0536 18.9034 16.3322 19.1331 15.4322C19.3607 14.54 19.3738 13.5821 19.3865 12.6557C19.3964 11.9305 19.4068 11.0714 19.4089 10.2001C19.4068 9.32871 19.3964 8.46979 19.3865 7.74454C19.3738 6.81818 19.3607 5.86023 19.1331 4.9679C18.9034 4.06794 18.4618 3.3465 17.8207 2.82358C17.127 2.25809 15.9751 1.63629 14.9985 1.57693C13.6229 1.49316 12.2069 1.45456 10.6684 1.45792C9.12646 1.45425 7.7103 1.49775 6.33472 1.58152C5.35815 1.64088 4.31304 2.05969 3.61938 2.62518C2.9782 3.1481 2.41787 4.06794 2.18823 4.9679C1.96056 5.86023 1.94744 6.81803 1.93478 7.74454C1.92486 8.4704 1.91448 9.32993 1.91235 10.202C1.91448 11.0702 1.92486 11.9299 1.93478 12.6557C1.94744 13.5821 1.96056 14.54 2.18823 15.4322C2.41787 16.3322 2.85946 17.0536 3.50063 17.5765C4.1943 18.142 5.35815 18.7827 6.33472 18.8421C7.7103 18.9259 9.12677 18.9649 10.6647 18.9611ZM10.6275 15.083C7.93521 15.083 5.74466 12.8926 5.74466 10.2001C5.74466 7.50773 7.93521 5.31733 10.6275 5.31733C13.3199 5.31733 15.5103 7.50773 15.5103 10.2001C15.5103 12.8926 13.3199 15.083 10.6275 15.083ZM10.6684 6.45427C8.47297 6.45427 6.92794 7.9993 6.92794 10.1983C6.92794 12.0291 8.31229 13.961 10.6468 13.961C12.4777 13.961 14.3812 12.2265 14.3812 10.1983C14.3812 8.36756 12.9845 6.45427 10.6684 6.45427ZM16.0572 3.75483C15.41 3.75483 14.8853 4.27942 14.8853 4.9267C14.8853 5.57398 15.41 6.09858 16.0572 6.09858C16.7044 6.09858 17.229 5.57398 17.229 4.9267C17.229 4.27942 16.7044 3.75483 16.0572 3.75483Z"
+                                                fill="#EAEAEC" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_9768_655">
+                                                <rect width="20" height="20" fill="white"
+                                                    transform="translate(0.666992 0.200195)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_9768_658)">
+                                            <path
+                                                d="M12.5354 8.66883L19.8208 0.200195H18.0944L11.7685 7.55339L6.71608 0.200195H0.888672L8.52898 11.3195L0.888672 20.2002H2.61517L9.29545 12.435L14.6312 20.2002H20.4586L12.535 8.66883H12.5354ZM10.1708 11.4175L9.39666 10.3103L3.23725 1.49987H5.88904L10.8598 8.61014L11.6339 9.71737L18.0952 18.9596H15.4434L10.1708 11.4179V11.4175Z"
+                                                fill="#EAEAEC" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_9768_658">
+                                                <rect width="20" height="20" fill="white"
+                                                    transform="translate(0.666992 0.200195)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom-bar">
+                    <p class="color-white text-center">
+                        @2026 All Rights Copyright <a href="index.html" class="color-sec">Coffee Shop</a> . Design &
+                        Developed By UIPARADOX
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+    </div>
+    <!-- Main Wrapper End -->
+
+    <!-- Mobile Menu Start -->
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/media/mobile-logo.png" alt=""></a>
+            </div>
+            <div class="mobile-nav__container"></div>
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:example@company.com">example@company.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:+12345678">+123 (4567) -890</a>
+                </li>
+            </ul>
+            <div class="mobile-nav__social">
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu End -->
+
+    <!-- modal-popup area end  -->
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <div class="search-popup__content">
+            <form role="search" method="get" class="search-popup__form" action="index.html">
+                <input type="text" id="search" placeholder="Search Here...">
+                <button type="submit"><i class="fal fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <!-- search-popup -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="productQuickView" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="shop-detail">
+                        <div class="detail-wrapper">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="quick-image-box">
+                                        <img src="assets/media/images/product-quickview.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="product-text-container bg-light-black br-20">
+                                        <div class="close-content text-end">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"><i
+                                                    class="fa-light fa-xmark color-white"></i></button>
+                                        </div>
+                                        <h5 class="color-white fw-600 mb-16">ESPRESSO MACCHIATO</h5>
+                                        <div class="d-flex align-items-center flex-wrap gap-16 mb-24">
+                                            <h6 class="color-sec">★&nbsp;★&nbsp;★&nbsp;★&nbsp;★</h6>
+                                            <div class="vr-line vr-line-2"></div>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-16 mb-24">
+                                            <h6 class="color-sec">$30.00</h6>
+                                            <p class="color-white text-decoration-line-through fw-300">$50.00</p>
+                                        </div>
+                                        <p class="color-white mb-24">
+                                            Lorem ipsum dolor sit amet consectetur. Purus nulla nec in ac malesuada et
+                                            nisi
+                                            ipsum. Massa scelerisque...
+                                        </p>
+                                        <div class="hr-line mb-24"></div>
+                                        <div class="function-bar mb-16">
+                                            <div class="quantity quantity-wrap mb-24">
+                                                <div class="input-area quantity-wrap">
+                                                    <input class="decrement" type="button" value="-">
+                                                    <input type="text" name="quantity" value="1" maxlength="2" size="1"
+                                                        class="number">
+                                                    <input class="increment" type="button" value="+">
+                                                </div>
+                                            </div>
+                                            <div class="cart-btn d-flex">
+                                                <a href="cart.html" class="cus-btn primary">ADD TO CART</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <!-- Jquery Js -->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/jquery-validator.js"></script>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
